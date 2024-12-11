@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,C,C_0402_1005Metric,-26.6,-5.4,135,bottom
+C1,100n,C_0402_1005Metric,-26.6,-5.4,45,bottom
 C2,10u,CP_Elec_5x5.4,-20.355741,-10.217158,-135,bottom
 C3,6.8u,C_0805_2012Metric,-12.2,-9.7,-90,bottom
 C4,100n,C_0402_1005Metric,-15.7,-9.7,-90,bottom
@@ -14,9 +14,14 @@ C12,4.7u,R_0603_1608Metric,3.4,12.5,0,bottom
 C14,6.8u,C_0805_2012Metric,-14.2,-9.7,-90,bottom
 C15,6.8u,C_0805_2012Metric,-33.3,-0.1,180,bottom
 C16,6.8u,C_0805_2012Metric,-33.3,-2.1,180,bottom
-D1,WS2812B,LED_WS2812B-2020_PLCC4_2.0x2.0mm,-29.2,-5.7,90,bottom
-J9,Conn_01x06_MountingPin,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,-41.9,4.4,180,bottom
-J16,Conn_01x04_MountingPin,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,-38.2,-1.2,180,bottom
+D1,WS2812B,LED_WS2812B-2020_PLCC4_2.0x2.0mm,-29.2,-5.7,180,bottom
+J9,Conn_01x06_MountingPin,JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal,-41,0,180,bottom
+J13,Conn_01x06,JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical,-77,3.8,180,bottom
+J15,Conn_01x06,JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical,-77,-0.5,180,bottom
+J16,Conn_01x04_MountingPin,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,-68.4,4.1,180,bottom
+J17,Conn_01x06,JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical,-68.4,-0.5,0,bottom
+J18,Conn_01x06,JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical,-59.8,3.8,180,bottom
+J19,Conn_01x06,JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical,-59.8,-0.5,180,bottom
 L1,3.3u,L_Sunlord_MWSA0603S,-26.775,-0.8,180,bottom
 R1,54.9k,R_0402_1005Metric,-28.6,-7.5,180,bottom
 R2,10k,R_0402_1005Metric,-28.1,-8.7,0,bottom
